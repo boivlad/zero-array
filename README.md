@@ -16,3 +16,5 @@ zeroArray(6, [1, 2, 3, 4, 5, 6]); //Result "NO"
 ```
 Print `YES` if it is possible to make all elements zero, otherwise print `NO`.
 ![Task](./task.png)
+
+Tests by [Alina Babenko - zero](https://github.com/linababenko/zero)
