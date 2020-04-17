@@ -1,7 +1,6 @@
 # Zero Array
 
-[![Build Status](https://travis-ci.com/boivlad/zero-array.svg?branch=feature/MSVLAD-76)](https://travis-ci.com/boivlad/zero-array)
-
+[![Build Status](https://travis-ci.com/boivlad/zero-array.svg?branch=feature%2FMSVLAD-76)](https://travis-ci.com/boivlad/zero-array)
 ## How to test:
 1. Clone this repository
 2. `npm intsall`
@@ -11,7 +10,7 @@
 2. `npm intsall`
 3. Example:
 ```javascript
-const { zeroArray } = require('../src/index');
+const { zeroArray } = require('./src/index');
 zeroArray(4, [1, 2, 3, 4]); //Result "YES"
 zeroArray(6, [1, 2, 3, 4, 5, 6]); //Result "NO"
 ```
