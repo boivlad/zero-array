@@ -1,0 +1,30 @@
+{
+  "name": "zero-array",
+  "version": "1.0.0",
+  "description": "It is necessary to check whether it is possible to make all elements of the array equal to zero or not.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boivlad/zero-array.git"
+  },
+  "author": "Vladyslav Boichenko",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/boivlad/zero-array/issues"
+  },
+  "homepage": "https://github.com/boivlad/zero-array#readme",
+  "dependencies": {
+    "mocha": "^7.1.1"
+  },
+  "devDependencies": {
+    "nyc": "^15.0.1"
+  }
+}
